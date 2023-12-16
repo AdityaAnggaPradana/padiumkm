@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PaDi UMKM-Sales Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="#" class="image avatar"><img src="images/Adit.jpeg" alt="" /></a>
+				<h1><strong>PaDi UMKM-Sales Dashboard</strong></h1><br /><br />
+				<a href="https://adityaanggapradana.github.io/Portfolio.github.io/" class="button small"><strong>Home</strong></a>
+			</div>
+		</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>Project Summary</h2>
+						</header>
+						<p>The project aims to empower PaDi UMKM with a robust dashboard and actionable insights, fostering continuous improvement and strategic decision-making. The emphasis on understanding seller dynamics, seasonal trends, and payment preferences positions PaDi UMKM for sustained success in supporting Indonesian UMKMs.</p>
+						
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Project Background</h2>
+						<div class="row gtr-50 gtr-uniform">
+						</div><br>
+						<p>PaDi UMKM, initiated by the Ministry of BUMN, the Ministry of UMKM, and the LKPP, is a marketplace launched on August 17, 2020. It facilitates Indonesian UMKM's access to government procurement, particularly by BUMN. The platform handles two transaction types: Business-to-Business (B2B) and Business-to-Consumer (B2C). Sellers are categorized by size (Micro, Small, Medium, Big) and type (Private)</p> 
+					</section>
+					<h3>Problem Statement</h3>
+					<p>To enhance decision-making processes at PaDi UMKM, the experts are leading the data analyst team in developing a comprehensive dashboard. The primary concern is to monitor the company's performance effectively, with a specific focus on providing insights into the dynamics of seller performance</p>
+					
+
+					<h3>Objectives</h3>
+					<p>The dashboard will delve into seller-specific metrics, analyzing the performance of UMKM groups based on their size and type. This includes insights into transaction volumes, revenue generation, and payment preferences. The analysis will guide the Sales Team in optimizing relationships with various seller groups</p>
+					
+					</section>
+				
+				<!-- Three -->
+				<section id="three">
+					<h2>Data Integration / Entity-Relationship Diagram (ERD)</h2>
+					<div class="row gtr-50 gtr-uniform">
+					<div class="col-9"><span class="image fit"><img src="images/telkom erd.png"></span></div>
+				</div>
+				<ol>
+					<br>
+					<li>Establishing a connection between the "User" table, utilizing the primary key "uid," and the "Transaction" table, where the foreign keys are "buyer_id" and "seller_id.".</b></li>
+					<li>Establishing a connection between the "Transaction" table, using the foreign key "order_id," and the "Order_Details" table, utilizing the primary key "order_id."</li>
+					<li>Establishing a connection between the "Order_Details" table, using the foreign key "product_id," and the "Product" table, utilizing the primary key "product_id."
+					</li>
+				 </ol>
+
+				</section>
+
+				<!-- Six -->
+				<section id="six">
+					<h2>Data Analysis</h2>
+					<h3><b>Business Metrics Highlights</h3></b>
+					<div class="row gtr-50 gtr-uniform">
+						<div class="col-12"><span class="image fit"><img src="images/Scorecard.png"></span></div>
+					</div><br>
+					<b>Interpretation:</b>
+					<ol>
+						<li>The company has generated a substantial revenue of 24.281 billion, indicating a significant contribution to the overall project value of 37.47 trillion</li>
+						<li>A total of 159,133 transactions have been conducted on the platform, showcasing a high level of user engagement</li>
+						<li>The platform has engaged 12,810 buyers, indicating a diverse customer base. This diversity is essential for the sustainability of the marketplace, as it reflects a broad appeal to various buyer segments</li>
+						<li>The involvement of 6,661 sellers highlights a robust ecosystem of sellers on the platform</li>
+						<li>The platform boasts an extensive product catalog with 182,040 products spanning across 49 categories. This variety signifies a rich marketplace, catering to diverse buyer needs and preferences</li>
+						<li>With an Average Order Value (AOV) of 152,582, the platform demonstrates a healthy transaction size. This suggests that buyers are not only active on the platform but are also making significant purchases, contributing positively to the overall revenue</li>
+				  	</ol><br>
+					
+					<h3><b>Revenue Growth</h3></b>
+					<div class="row gtr-50 gtr-uniform">
+						<div class="col-12"><span class="image fit"><img src="images/Revenue Growth.png"></span></div>
+					</div><br>
+					<b>Interpretation:</b>
+					<ol>
+						<li>May 1, 2022, shows a substantial decrease in revenue compared to the surrounding weeks. Investigating the potential causes for this decline, such as external factors or operational issues, is crucial to address and prevent future revenue drops.</li>
+						<li>Following the decline in May 2022, the subsequent weeks showcase a recovery, indicating adaptability and resilience in the marketplace. The consistent performance from June to November 2022 suggests stability in revenue generation</li>
+				  	</ol><br>
+
+					  <h3><b>Top 10 Seller</h3></b>
+
+					  <div class="row gtr-50 gtr-uniform">
+						  <div class="col-9"><span class="image fit"><img src="images/Top 10 Seller.png"></span></div>
+					  </div><br>
+					  <b>Interpretation:</b>
+					  <p>The diversity in transaction volumes suggests that multiple sellers contribute significantly to the marketplace's overall performance. It's essential to understand the strengths and strategies of each seller to optimize collaboration and support</p>
+					  <br>
+					
+					<h3><b>Product Sold/Month</h3></b>
+					<div class="row gtr-50 gtr-uniform">
+						<div class="col-9"><span class="image fit"><img src="images/Product SoldMonth.png"></span></div>
+					</div><br>
+					<b>Interpretation:</b>
+					<ol>
+						<li>December, being the highest sales month, indicates a significant surge in consumer activity, possibly driven by year-end holidays, festive celebrations, and special promotions</li>
+						<li>"Office & Stationary" category has the highest sales aligns with potential consumer behaviors during year-end periods. Businesses may be restocking office supplies, purchasing gifts, or taking advantage of year-end deals</li>
+				  	</ol><br>
+					<h3><b>Payment Method</h3></b>
+
+					<div class="row gtr-50 gtr-uniform">
+						<div class="col-9"><span class="image fit"><img src="images/Payment Method.png"></span></div>
+					</div><br>
+					<b>Interpretation:</b>
+					<p>Company can use this data to optimize their payment methods, ensuring that the most popular and convenient options are prominently featured. Simplifying the payment process enhances the overall customer experience and encourages repeat transactions</p>
+					<br>
+
+				
+
+				
+				<!-- Seven -->
+				<section id="seven">
+					<h2>Recommendation</h2>
+					
+						<li>Collaborate strategically with high-impact sellers identified in the top 10 seller chart. Understand their needs, provide support, and explore opportunities for joint promotions or exclusive deals to foster long-term relationships</li>
+						<li>Leverage insights from the product revenue growth chart to plan targeted seasonal marketing campaigns. Capitalize on the high sales months and the popularity of the "Office & Stationary" category to drive increased user engagement.</b></li>
+						<li>Establish a continuous monitoring mechanism for all key metrics. Regularly analyze trends, user behavior, and market dynamics to adapt strategies promptly, ensuring the dashboard remains a dynamic and relevant tool for performance monitoring</li>
+				</section>
+				</section>
+				<section>
+				<p><h2>Project Files</h2></p>
+						For a more comprehensive analysis and visualization, please open the project files.
+						<ul>
+						<li><a href="https://public.tableau.com/views/E-CommerceB2B/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link">tableau Dashboard</a></li>
+					</ul>
+				</section>
+					</section>
+
+				<!-- Eight -->
+				<section id="eight">
+					<h2>Dashboard</h2>	
+					<div <div class='tableauPlaceholder' id='viz1702719006821' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;E-&#47;E-CommerceB2B&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='E-CommerceB2B&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;E-&#47;E-CommerceB2B&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1702719006821');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2577px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+				</section>
+
+				</section>
+				
+				<a href="https://adityaanggapradana.github.io/Portfolio.github.io/" class="button small">Home</a>
+				<a href="https://adityaanggapradana.github.io/Projects1/" class="button small">Projects</a>
+			
+			</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/aditya-a-pradana/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/AdityaAnggaPradana" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://wa.me/6287888633607" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
+					<li><a href="mailto:adityasasmita3110@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Aditya Pradana</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
